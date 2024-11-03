@@ -1,0 +1,233 @@
+/* Main Container */
+.aarti-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #faf3e6;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Main Title Styling */
+.aarti-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #8B0000;
+    margin-bottom: 1rem;
+}
+
+/* Grid Layout */
+.aarti-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 0 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .aarti-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .aarti-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Tile Styling */
+.aarti-tile {
+    background-color: #f7e5c5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.aarti-tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.aarti-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    max-width: 150px;
+}
+
+/* Description Styling */
+.aarti-description {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5d4037;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative; /* This allows absolute positioning within */
+    background: #fff;
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    overflow-y: auto;
+    max-height: 80vh;
+    text-align: center;
+}
+
+/* Main Title Styling in Modal */
+.modal-content h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    color: #8B0000;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 0.5rem;
+}
+
+/* Close Button Styling */
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+    z-index: 1001; /* Ensures it stays above modal content */
+}
+
+.close-button:hover {
+    color: #8B0000;
+}
+
+/* Subtitle Styling for Other Titles */
+.aarti-subtitle {
+    color: #8B0000;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+/* Paragraph text styling */
+.aarti-section p {
+    color: #4d4d4d;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* Specific styling for h3 and h4 headers within modal content */
+.modal-content h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #8B0000;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.modal-content h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.4rem;
+    color: #8B0000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic; /* Adds a subtle cursive style */
+}
+
+/* Responsive Styles for Modal Titles */
+@media (max-width: 600px) {
+    .modal-content h3, .modal-content h4 {
+        font-size: 1.3rem;
+        padding: 0 10px;
+    }
+}
+
+/* Decorative Sides Styling */
+.decorative-side {
+    width: 80px;
+    height: 100vh;
+    background-color: #efe2d5;
+    background-image: url("data:image/svg+xml,%3Csvg width='48' height='64' viewBox='0 0 48 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M48 28v-4L36 12 24 24 12 12 0 24v4l4 4-4 4v4l12 12 12-12 12 12 12-12v-4l-4-4 4-4zM8 32l-6-6 10-10 10 10-6 6 6 6-10 10L2 38l6-6zm12 0l4-4 4 4-4 4-4-4zm12 0l-6-6 10-10 10 10-6 6 6 6-10 10-10-10 6-6zM0 16L10 6 4 0h4l4 4 4-4h4l-6 6 10 10L34 6l-6-6h4l4 4 4-4h4l-6 6 10 10v4L36 8 24 20 12 8 0 20v-4zm0 32l10 10-6 6h4l4-4 4 4h4l-6-6 10-10 10 10-6 6h4l4-4 4 4h4l-6-6 10-10v-4L36 56 24 44 12 56 0 44v4z' fill='%23c87732' fill-opacity='0.95' fill-rule='evenodd'/%3E%3C/svg%3E");
+    opacity: 0.4;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+/* Left Decorative Side */
+.decorative-side.left {
+    left: 0;
+}
+
+/* Right Decorative Side */
+.decorative-side.right {
+    right: 0;
+}
+
+/* Media Queries for Decorative Panels */
+
+/* Hide decorative sides on small screens (like mobile) */
+@media (max-width: 768px) {
+    .decorative-side {
+        display: none;
+    }
+}
+
+/* Adjust width and height for tablets */
+@media (min-width: 769px) and (max-width: 1199px) {
+    .decorative-side {
+        width: 60px;
+        height: 100vh;
+    }
+}
+
+/* Restore original size for large screens */
+@media (min-width: 1200px) {
+    .decorative-side {
+        width: 80px;
+        height: 100vh;
+    }
+}
