@@ -46,7 +46,7 @@ const stories: Story[] = [
     	Shri Sachhidanand Sadguru Sainath Maharaj ki Jai...!!!
     </h4>   
     `,
-    image: "src/assets/offering_food_to_saint.jpg", // Replace with actual image path
+    image: "/assets/offering_food_to_saint.jpg", // Replace with actual image path
   },
   {
     title: "Profit in Business",
@@ -72,7 +72,7 @@ const stories: Story[] = [
     </h4>
     
     `,
-    image: "src/assets/cloth_merchant.jpg",
+    image: "/assets/cloth_merchant.jpg",
   },
   {
     title: "An Eligible Girl Got Married",
@@ -104,7 +104,7 @@ const stories: Story[] = [
     	Shri Sachhidanand Sadguru Sainath Maharaj ki Jai...!!!
     </h4>
     `,
-    image: "src/assets/girl_marriage.jpg",
+    image: "/assets/girl_marriage.jpg",
   },
   {
     title: "Debts Got Recovered",
@@ -141,7 +141,7 @@ const stories: Story[] = [
     	Shri Sachhidanand Sadguru Sainath Maharaj ki Jai...!!!
     </h4>
     `,
-    image: "src/assets/Debts_got_recovered.jpg",
+    image: "/assets/Debts_got_recovered.jpg",
   },
   {
     title: "Got Blessed with Child",
@@ -164,7 +164,7 @@ const stories: Story[] = [
     	Shri Sachhidanand Sadguru Sainath Maharaj ki Jai...!!!
     </h4>
     `,
-    image: "src/assets/Baba_child_blessing.jpg",
+    image: "/assets/Baba_child_blessing.jpg",
   },
   {
     title: "Success in Education",
@@ -193,7 +193,7 @@ const stories: Story[] = [
     	Shri Sachhidanand Sadguru Sainath Maharaj ki Jai...!!!
     </h4>
     `,
-    image: "src/assets/Baba_blessing_young_doctor.jpg",
+    image: "/assets/Baba_blessing_young_doctor.jpg",
   },
 ];
 

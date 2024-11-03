@@ -1,4 +1,4 @@
-import saiBabaAartiImage from "../assets/sai-baba-aarti.jpg";
+import saiBabaAartiImage from "../../public/assets/sai-baba-aarti.jpg";
 
 export interface ParagraphContent {
   image: string;

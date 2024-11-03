@@ -19,7 +19,7 @@ const SaiBabaBhajans: React.FC = () => {
       description: "A soulful bhajan celebrating Sai Baba's blessings.",
       mp4Url:
         "https://sai-baba-vratam-bhajans-and-assets.s3.us-east-1.amazonaws.com/sadguru-sai-ananda-daayi-part-1-of-8wmv.mp4",
-      coverImage: "src/assets/sai-baba-bhajan.jpeg",
+      coverImage: "/assets/sai-baba-bhajan.jpeg",
       singers: "Smt. Devulapalli Srinivasa Sridevi",
       lyricist: "Aakella Surya Narayana Murthy",
       music: "Siva Sharma",
@@ -29,7 +29,7 @@ const SaiBabaBhajans: React.FC = () => {
       description: "A soulful bhajan celebrating Sai Baba's blessings.",
       mp4Url:
         "https://sai-baba-vratam-bhajans-and-assets.s3.us-east-1.amazonaws.com/sadguru-sai-ananda-daayi-part-2-of-8wmv.mp4",
-      coverImage: "src/assets/sai_baba_bhajan_3.jpg",
+      coverImage: "/assets/sai_baba_bhajan_3.jpg",
       singers: "Smt. Devulapalli Srinivasa Sridevi & Chakradhar",
       lyricist: "Aakella Surya Narayana Murthy",
       music: "Siva Sharma",
@@ -39,7 +39,7 @@ const SaiBabaBhajans: React.FC = () => {
       description: "A soulful bhajan celebrating Sai Baba's blessings.",
       mp4Url:
         "https://sai-baba-vratam-bhajans-and-assets.s3.us-east-1.amazonaws.com/sadguru-sai-ananda-daayi-part-3-of-8wmv.mp4",
-      coverImage: "src/assets/Bhajans.jpg",
+      coverImage: "/assets/Bhajans.jpg",
       singers: "Smt. Devulapalli Srinivasa Sridevi & Siva Sharma",
       lyricist: "Aakella Surya Narayana Murthy",
       music: "Siva Sharma",
@@ -49,7 +49,7 @@ const SaiBabaBhajans: React.FC = () => {
       description: "A soulful bhajan celebrating Sai Baba's blessings.",
       mp4Url:
         "https://sai-baba-vratam-bhajans-and-assets.s3.us-east-1.amazonaws.com/sadguru-sai-ananda-daayi-part-4-of-8wmv.mp4",
-      coverImage: "src/assets/bhajan_2.jpg",
+      coverImage: "/assets/bhajan_2.jpg",
       singers: "Smt. Devulapalli Srinivasa Sridevi",
       lyricist: "Aakella Surya Narayana Murthy",
       music: "Siva Sharma",
@@ -59,7 +59,7 @@ const SaiBabaBhajans: React.FC = () => {
       description: "A soulful bhajan celebrating Sai Baba's blessings.",
       mp4Url:
         "https://sai-baba-vratam-bhajans-and-assets.s3.us-east-1.amazonaws.com/sadguru-sai-ananda-daayi-part-5-of-8wmv.mp4",
-      coverImage: "src/assets/sai_bhajan_5.jpg",
+      coverImage: "/assets/sai_bhajan_5.jpg",
       singers: "Smt. Devulapalli Srinivasa Sridevi & Chakradhar",
       lyricist: "Aakella Surya Narayana Murthy",
       music: "Siva Sharma",
@@ -69,7 +69,7 @@ const SaiBabaBhajans: React.FC = () => {
       description: "A soulful bhajan celebrating Sai Baba's blessings.",
       mp4Url:
         "https://sai-baba-vratam-bhajans-and-assets.s3.us-east-1.amazonaws.com/sadguru-sai-ananda-daayi-part-6-of-8wmv.mp4",
-      coverImage: "src/assets/krishna_bhajan.jpg",
+      coverImage: "/assets/krishna_bhajan.jpg",
       singers: "Smt. Devulapalli Srinivasa Sridevi & Chakradhar",
       lyricist: "Aakella Surya Narayana Murthy",
       music: "Siva Sharma",
@@ -79,7 +79,7 @@ const SaiBabaBhajans: React.FC = () => {
       description: "A soulful bhajan celebrating Sai Baba's blessings.",
       mp4Url:
         "https://sai-baba-vratam-bhajans-and-assets.s3.us-east-1.amazonaws.com/sadguru-sai-ananda-daayi-part-7-of-8wmv.mp4",
-      coverImage: "src/assets/Baba_blissful.png",
+      coverImage: "/assets/Baba_blissful.png",
       singers: "Smt. Devulapalli Srinivasa Sridevi & Chakradhar",
       lyricist: "Aakella Surya Narayana Murthy",
       music: "Siva Sharma",
@@ -89,7 +89,7 @@ const SaiBabaBhajans: React.FC = () => {
       description: "A soulful bhajan celebrating Sai Baba's blessings.",
       mp4Url:
         "https://sai-baba-vratam-bhajans-and-assets.s3.us-east-1.amazonaws.com/sadguru-sai-ananda-daayi-part-8-of-8wmv.mp4",
-      coverImage: "src/assets/sai_bhajan_2.jpg",
+      coverImage: "/assets/sai_bhajan_2.jpg",
       singers: "Smt. Devulapalli Srinivasa Sridevi & Chakradhar",
       lyricist: "Aakella Surya Narayana Murthy",
       music: "Siva Sharma",

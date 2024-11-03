@@ -2,9 +2,9 @@ import React from "react";
 import "../App.css";
 
 // Import the images
-import saiBabaLarge from "../assets/sai-baba-large.jpeg";
-import saiBabaMedium from "../assets/sai-baba-medium.jpeg";
-import saiBabaSmall from "../assets/sai-baba-small.jpeg";
+import saiBabaLarge from "../../public/assets/sai-baba-large.jpeg";
+import saiBabaMedium from "../../public/assets/sai-baba-medium.jpeg";
+import saiBabaSmall from "../../public/assets/sai-baba-small.jpeg";
 import { Helmet } from "react-helmet";
 
 const Home: React.FC = () => {
