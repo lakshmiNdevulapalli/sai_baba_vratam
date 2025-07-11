@@ -14,18 +14,18 @@ const stories: Story[] = [
     time changed and Sridhar got a great loss in his running business and it went down gradually. As there was not
     enough income, he has to close the shop permanently. He started Staying at home all day and his nature became very 
     annoying. He started abusing Liladevi and he had no sense of talking. Neighbors were also very much frustrated by 
-    his this kind of nature. Liladevi had lots of faith in God nd she was very religious. She knew that God will surely 
+    his this kind of nature. Liladevi had lots of faith in God and she was very religious. She knew that God will surely 
     find some solution to her problems. It was an afternoon; one old Saint came to Liladev's door. There was enormous 
     light on his face. And he asked for rice and dal (lentils). She washed her hands and give him rice and dal and she 
     folded her both hands and said "Namaste" (Greetings). Saint blessed her and said "SAI will always keep you happy". 
     Liladevi said that there was no happiness in her life and she told all her problems to the saint. After listening 
-    to all her problems, saint told her about the Vrat. This vrat can be started from any Thursday. After finishing 
+    to all her problems, saint told her about the Vrat. This vrat can be started from any Thursday. After finishing the
     last fast, do Udyapan (Finishing Ceremony).<br><br>
     
     In this Kali age (Kaliyug), this vrat is very effective. This vrat will give desired fruit to doers who have full 
     faith and patience. Distribute SAI VRAT book among people and make good name of Sai and this Vrat. By doing this, 
-    your wishes will be fulfilled very soon. very soon. After listening about this SAI VRAT from saint, Liladevi also 
-    decided to do this vrat. She started Vrat from the Thursday. As soon as she finished the Vrat, all the quarrels 
+    your wishes will be fulfilled very soon. After listening about this SAI VRAT from the saint, Liladevi also 
+    decided to do this vrat. She started the Vrat from Thursday. As soon as she finished the Vrat, all the quarrels 
     vanished from her house. <br><br>
     
     Prosperity, happiness and peace spead in her home. Sridhar bhai's nature was changed completely. Their business 
