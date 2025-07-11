@@ -108,7 +108,7 @@ const VratamDetails: React.FC = () => {
           <li>
             All this you have to do only on first Thursday, not every Thursday,
             from next Thursday you just need to do the pooja and read the sai
-            part katha.
+            vrat katha.
           </li>
         </ul>
 
