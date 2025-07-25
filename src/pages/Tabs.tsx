@@ -69,7 +69,7 @@ const Tabs: React.FC = () => {
       <div className="footer-container">
         <footer>
           <p>
-            Copyright © 2024 Venkata Lakshmi Narasimha, Devulapalli. All rights
+            Copyright © 2025 Venkata Lakshmi Narasimha, Devulapalli. All rights
             reserved.
           </p>
           <p>
